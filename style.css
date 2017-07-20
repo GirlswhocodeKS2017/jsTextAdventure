@@ -6,11 +6,6 @@ button {
 
 body {
     font-size: 3em;
-    font-family:fantasy;
+    font-family: Apple Chancery, cursive;
+}
 
-}
-.center {
-    margin:auto;
-    width:50%;
-    padding:10px;
-}

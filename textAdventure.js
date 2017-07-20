@@ -19,6 +19,7 @@ function leave() {
     document.getElementById("story").innerHTML = next;
     document.getElementById("stayButton").style.display = "none";
     document.getElementById("leaveButton").style.display = "none";
+    document.getElementById("storyImage").src="scaryMonster.jpg";
     
 }
 function lamp () {
@@ -29,5 +30,15 @@ function lamp () {
     document.getElementById("story").innerHTML = next;
     document.getElementById("stayButton2").style.display = "none";
     document.getElementById("lampButton").style.display = "none";
+    document.getElementById("storyImage").src="zena.gif";
     
+}
+
+function stayAgain() {
+    next = "Sorry. It wasn't a dream. You meet a grisly end." 
+    document.getElementById("story").innerHTML = next;
+    document.getElementById("storyImage").src="grizzly.jpg";
+    document.getElementById("stayButton2").style.display = "none";
+    document.getElementById("lampButton").style.display = "none";
+
 }
