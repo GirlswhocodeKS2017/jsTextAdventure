@@ -4,7 +4,9 @@
 function stay() {
     var next = "You decide to stay. Maybe it is all a dream. You close" +
 	" your eyes, hoping that you will wake up. A hideous monster" +
-	" busts through the door.";
+	" busts through the door.\n Do you stay and hide in bed?<i> It " +
+	"is only a dream after all</i>. Or do you pick up the lamp? <i>It's " +
+	"butt-kicking time!</i>";
     document.getElementById("story").innerHTML = next;
     document.getElementById("stayButton").style.display = "none";
     document.getElementById("leaveButton").style.display = "none";
