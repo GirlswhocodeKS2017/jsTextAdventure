@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Sample Text Adventure</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="textAdventure.js"></script>
+  </head>
+
+  <body>
+    <p id="story">You awake in a strange room. It is large, traditionally
+      decorated room. You hear a loud scream from what appears to be a
+      nearby room. Do you leave or stay ?</p>
+    
+    <button id="stayButton" type="button"
+	    onclick= "stay()">Stay?</button>
+    <button id="leaveButton" type="button"
+	    onclick="leave()">Leave?</button>
+    <button id="stayButton2" type="button" style="display:none;"
+	    onclick= "stayAgain()">Stay?</button>
+    <button id="lampButton" type="button" style="display:none;"
+	    onclick="lamp()">Lamp?</button>
+    <div>
+      <img id="storyImage" src="inBedroomwlamp.png">
+    </div>
+    
+  </body>
+
+
+</html>

@@ -1,0 +1,16 @@
+button {
+    font-size: 0.4em;
+    border-radius: 20px;
+    background-color:gray;
+}
+
+body {
+    font-size: 3em;
+    font-family:fantasy;
+
+}
+.center {
+    margin:auto;
+    width:50%;
+    padding:10px;
+}
